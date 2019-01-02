@@ -1,0 +1,88 @@
+
+html{
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: top;
+  color:white;
+  font-weight: 600;
+}
+ 
+h1{
+  font-size: 30px;
+  
+}
+
+.explanation {
+  background-color: rgb(139, 87, 139);
+  font-weight: 300;
+}
+
+.border-info{
+  display:flex;
+  margin: 50px auto;
+  justify-content: center;
+  /* width:700px; */
+  
+}
+
+.aside{
+  width:400px;
+  
+}
+.aside2{
+  width:400px;
+  margin-left:20px;
+  display:flex;
+  flex-flow: column;
+  
+  /* background-color: rgb(139, 87, 139); */
+  
+}
+#initial-setup, #title, #info, #info-red{
+  width:500px;
+  margin: 50px auto;
+  
+  /* background-color: white; */
+}
+#info, #info-red {
+  margin:0 auto;
+ 
+  
+}
+
+#info-red p{
+  color:yellow;
+  font-size: 20px;
+}
+
+#rover-bord {
+  width:500px;
+  height:502px;
+  display:flex;
+  flex-flow: column;
+  border:3px solid rgb(92, 6, 95);
+  /* border-radius: 2%; */
+  /* margin: 50px auto; */
+}
+
+#rover-bord div {
+  width:500px;
+  height:50px;
+  display:flex;
+}
+
+.cell{
+  width:50px;
+  height:50px;
+  background-color: #c2c2d6;
+  border: 1px solid  #f0f0f5 ;
+}
+
+#initial-setup p{
+  color:yellow;
+}
